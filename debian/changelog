@@ -1,3 +1,12 @@
+httpcomponents-client (4.5.14-1) unstable; urgency=medium
+
+  * New upstream release
+    - Refreshed the patches
+  * Track and download the new releases from GitHub
+  * Standards-Version updated to 4.6.1
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 06 Dec 2022 12:54:20 +0100
+
 httpcomponents-client (4.5.13-3) unstable; urgency=medium
 
   * Track only the 4.x releases

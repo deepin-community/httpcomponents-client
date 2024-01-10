@@ -28,7 +28,7 @@
   <parent>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpcomponents-client</artifactId>
-    <version>4.5.13</version>
+    <version>4.5.14</version>
   </parent>
   <artifactId>httpclient-osgi</artifactId>
   <name>Apache HttpClient OSGi bundle</name>
@@ -36,7 +36,7 @@
   <description>
    Apache HttpComponents Client (OSGi bundle)
   </description>
-  <url>http://hc.apache.org/httpcomponents-client</url>
+  <url>http://hc.apache.org/httpcomponents-client-ga</url>
   <packaging>bundle</packaging>
 
   <properties>

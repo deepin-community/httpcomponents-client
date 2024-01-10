@@ -19,6 +19,7 @@ org.apache.httpcomponents httpclient test-jar
 *	animal-sniffer-maven-plugin
 *       maven-checkstyle-plugin
 *	maven-clover2-plugin
+*	maven-javadoc-plugin
 *	maven-source-plugin
 *	maven-release-plugin
 *	docbkx-maven-plugin

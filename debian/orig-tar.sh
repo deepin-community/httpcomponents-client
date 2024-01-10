@@ -10,7 +10,7 @@ TAR=../httpcomponents-client_${VERSION}.orig.tar.xz
 mkdir -p $DIR/httpclient/src/main/resources/mozilla/
 wget https://publicsuffix.org/list/effective_tld_names.dat -O $DIR/httpclient/src/main/resources/mozilla/public-suffix-list.txt
 
-tar -xf $3
-rm $3
+tar -xf $TAR
+rm $TAR
 XZ_OPT=--best tar -c -v -J -f $TAR $DIR
 rm -Rf $DIR

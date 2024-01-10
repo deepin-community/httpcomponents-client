@@ -1,2 +1,3 @@
 version=4
-https://www.apache.org/dist/httpcomponents/httpclient/source/httpcomponents-client-(4\.\d+[^a-zA-Z]*)-src\.tar\.gz debian debian/orig-tar.sh
+opts="mode=git" \
+https://github.com/apache/httpcomponents-client refs/tags/rel/v(4\.\d+[^a-zA-Z]*) debian debian/orig-tar.sh

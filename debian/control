@@ -17,11 +17,10 @@ Build-Depends:
  libhttpcore-java (>= 4.4.1~),
  libmaven-antrun-plugin-java,
  libmaven-bundle-plugin-java,
- libmaven-javadoc-plugin-java,
  libmockito-java,
  maven-debian-helper,
  libspymemcached-java
-Standards-Version: 4.6.0.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/java-team/httpcomponents-client.git
 Vcs-Browser: https://salsa.debian.org/java-team/httpcomponents-client
 Homepage: http://hc.apache.org/httpcomponents-client-ga/index.html

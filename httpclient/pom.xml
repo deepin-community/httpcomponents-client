@@ -28,14 +28,14 @@
   <parent>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpcomponents-client</artifactId>
-    <version>4.5.13</version>
+    <version>4.5.14</version>
   </parent>
   <artifactId>httpclient</artifactId>
   <name>Apache HttpClient</name>
   <description>
    Apache HttpComponents Client
   </description>
-  <url>http://hc.apache.org/httpcomponents-client</url>
+  <url>http://hc.apache.org/httpcomponents-client-ga</url>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -149,7 +149,7 @@
           <source>${maven.compiler.source}</source>
           <links>
             <link>http://docs.oracle.com/javase/6/docs/api/</link>
-            <link>http://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/</link>
+            <link>https://hc.apache.org/httpcomponents-core-4.4.x/current/httpcore/apidocs/</link>
           </links>
         </configuration>
         <reportSets>
